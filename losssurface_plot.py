@@ -263,7 +263,5 @@ def run(path, log_alpha=-5.0):
 
 if __name__ == "__main__":
     setup_matplotlib()
-    path = 'src_paintingrealsketch_tar_painting_G26_margin1.5.pth'
+    path = 'results_source/src_paintingrealsketch_tar_painting_G26_margin1.5.pth'
     run(path)
-    # ttt = torch.load(path)
-    # print(ttt)
